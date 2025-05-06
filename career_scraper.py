@@ -15,7 +15,7 @@ DOC_ID = os.getenv('GOOGLE_DOC_ID')
 SHEET_TITLE = os.getenv('GOOGLE_SHEET_TITLE')
 CSE_API_KEY = os.getenv('GOOGLE_CSE_API_KEY')
 CSE_ID = os.getenv('GOOGLE_CSE_ID')
-SERVICE_ACCOUNT_JSON = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON')
+SERVICE_ACCOUNT_JSON = 'secrets/credentials.json'
 
 SCOPES = [
     'https://www.googleapis.com/auth/spreadsheets',
