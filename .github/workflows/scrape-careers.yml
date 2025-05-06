@@ -1,9 +1,9 @@
-name: Run Career Scraper Every 45 Minutes
+name: Run Career Scraper Every 4 Hours
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Runs every 45 minutes
-  workflow_dispatch:       # Allows manual trigger
+    - cron: '0 */4 * * *'  # Runs every 4 hours
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   scrape:
